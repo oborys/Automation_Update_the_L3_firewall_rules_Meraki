@@ -4,11 +4,11 @@
       "serviceArea": "Exchange",
       "serviceAreaDisplayName": "Exchange Online",
       "urls": [
-        "out.office.com",
+        "office.com",
         "outlook.office365.com"
       ],
       "ips": [
-        "13.107.6.152/31",
+        "13.107.6.100/31",
         "13.107.18.10/31",
         "13.107.128.0/22",
         "23.103.160.0/20",
