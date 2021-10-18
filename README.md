@@ -3,7 +3,7 @@
 
 ### Business challenge
 - Make a solution that automatically updates Office 365 endpoints as Meraki L3 firewall rules
-
+- The solution that periodically can pull the actual IP list of SaaS providers into your Cisco Meraki network
 
 ![img](Cisco_Meraki_Firewall.png)
 
@@ -187,11 +187,6 @@ Delete all untagged Docker images
 docker rmi $(docker images | grep '^' | awk '{print $3}')
 ```
 
-# Cisco Meraki Network Objects automation
-
-The solution can help pull the actual IP list of SaaS providers into your Cisco Meraki network.
-
-You can automate object creation. The solution will be delivered in next release
 
 **Network Objects/Groups can be applied to:**
 
@@ -200,6 +195,8 @@ You can automate object creation. The solution will be delivered in next release
 - Outbound, and Failover Cellular Firewall Rules.
 
 Organization-wide Site to Site VPN Outbound Firewall Rules
+
+You can automate object creation. The solution will be delivered in next release
 
 Security & SD-WAN > Firewall > Add new
 
@@ -218,10 +215,6 @@ Sample of Body response in case of an error
     ]
 }
 ```
-
-Similar solution
-https://github.com/SalnikovAndrey/performance-based-routing-to-office-365-over-meraki-sd-wan/blob/master/o365_sd_wan.py
-
 
 ## Useful links
 
