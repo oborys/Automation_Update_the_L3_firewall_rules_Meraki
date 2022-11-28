@@ -11,6 +11,6 @@ pytz==2022.6
 requests==2.28.1
 selenium==4.6.1
 six==1.16.0
-tzlocal==2.1
+tzlocal==4.2
 urllib3==1.26.12
 Werkzeug==2.0.1
